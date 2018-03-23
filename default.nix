@@ -1,4 +1,3 @@
-# default.nix
 (import ./reflex-platform {}).project ({ pkgs, ... }: {
   packages = {
     common = ./common;
